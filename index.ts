@@ -9,5 +9,5 @@ export default function base (config: CustomConfig): Config {
     pin: {
       "eslint": "^9.0.0",
     }
-  });
+  }, {arrayExtend: true});
 }
