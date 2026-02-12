@@ -1,6 +1,6 @@
-import config from "./index.ts";
+import {base} from "./index.ts";
 
-test("config", () => {
-  const cfg = config({url: import.meta.url});
+test("base", () => {
+  const cfg = base({url: import.meta.url});
   expect(cfg).toBeObject();
 });
