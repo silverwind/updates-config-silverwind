@@ -3,9 +3,9 @@
 Shared updates configuration
 
 ```js
-import silverwind from "updates-config-silverwind";
+import {base} from "updates-config-silverwind";
 
-export default silverwind({url: import.meta.url});
+export default base({url: import.meta.url});
 ```
 
 © [silverwind](https://github.com/silverwind), distributed under BSD licence.
