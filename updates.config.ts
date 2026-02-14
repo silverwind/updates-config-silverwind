@@ -1,3 +1,3 @@
-import {base} from "updates-config-silverwind";
+import {base} from "./index.ts";
 
 export default base({url: import.meta.url});
