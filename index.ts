@@ -5,8 +5,6 @@ export type CustomConfig = Config & {url: string};
 
 export function base(config: CustomConfig): Config {
   return deepMerge(config, {
-    pin: {
-      typescript: "^5.9.3",
-    },
+    // no pins currently
   }, {arrayExtend: true});
 }
