@@ -15,7 +15,7 @@
   ],
   "packageManager": "pnpm@10.33.3",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "peerDependencies": {
     "prettier": "*"
@@ -29,7 +29,7 @@
     "jest-extended": "7.0.0",
     "prettier": "3.8.3",
     "tsdown": "0.21.10",
-    "tsdown-config-silverwind": "2.1.1",
+    "tsdown-config-silverwind": "3.0.0",
     "typescript": "6.0.3",
     "typescript-config-silverwind": "18.0.0",
     "updates": "17.16.9",
