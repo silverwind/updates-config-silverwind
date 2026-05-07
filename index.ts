@@ -5,6 +5,8 @@ export type CustomConfig = Config & {url: string};
 
 export function base(config: CustomConfig): Config {
   return deepMerge(config, {
-    "pnpm": "^10",
+    pin: {
+      "pnpm": "^10",
+    },
   }, {arrayExtend: true});
 }
