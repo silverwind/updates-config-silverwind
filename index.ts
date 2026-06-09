@@ -4,6 +4,5 @@ import type {Config} from "updates";
 export type CustomConfig = Config & {url: string};
 
 export function base(config: CustomConfig): Config {
-  return deepMerge(config, {
-  }, {arrayExtend: true});
+  return deepMerge(config, {}, {arrayExtend: true});
 }
