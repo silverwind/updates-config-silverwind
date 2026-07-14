@@ -7,6 +7,7 @@ export function base(config: CustomConfig): Config {
   return deepMerge(config, {
     pin: {
       typescript: "^6", // wait on typescript-eslint to support 7
+      pnpm: "<11.12.0", // https://github.com/pnpm/pnpm/issues/12955
     },
   }, {arrayExtend: true});
 }
