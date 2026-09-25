@@ -3,7 +3,10 @@
   "version": "4.0.6",
   "description": "Shared updates configuration",
   "author": "silverwind <me@silverwind.io>",
-  "repository": "silverwind/updates-config-silverwind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverwind/updates-config-silverwind.git"
+  },
   "license": "BSD-2-Clause",
   "type": "module",
   "sideEffects": false,
