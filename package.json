@@ -16,7 +16,7 @@
   "files": [
     "dist"
   ],
-  "packageManager": "pnpm@12.3.4",
+  "packageManager": "pnpm@12.6.0",
   "engines": {
     "node": ">=22"
   },
@@ -24,20 +24,20 @@
     "prettier": "*"
   },
   "devDependencies": {
-    "@types/node": "26.4.1",
+    "@types/node": "26.6.2",
     "@typescript/native-preview": "7.0.0-dev.20260707.2",
     "deepie-merge": "3.0.2",
-    "eslint": "10.9.1",
-    "eslint-config-silverwind": "146.0.0",
+    "eslint": "10.11.0",
+    "eslint-config-silverwind": "151.0.0",
     "jest-extended": "7.0.0",
-    "prettier": "3.9.6",
-    "tsdown": "0.22.14",
-    "tsdown-config-silverwind": "4.0.3",
+    "prettier": "3.9.9",
+    "tsdown": "0.23.0",
+    "tsdown-config-silverwind": "4.1.1",
     "typescript": "6.0.3",
-    "typescript-config-silverwind": "20.0.3",
-    "updates": "18.0.8",
-    "versions": "15.3.8",
-    "vitest": "5.0.0",
-    "vitest-config-silverwind": "12.0.0"
+    "typescript-config-silverwind": "21.0.0",
+    "updates": "19.0.0",
+    "versions": "15.5.0",
+    "vitest": "5.0.2",
+    "vitest-config-silverwind": "12.0.4"
   }
 }
