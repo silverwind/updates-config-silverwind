@@ -173,8 +173,8 @@ importers:
         specifier: 7.0.0-dev.20260707.2
         version: 7.0.0-dev.20260707.2
       deepie-merge:
-        specifier: 3.0.3
-        version: 3.0.3
+        specifier: 3.1.0
+        version: 3.1.0
       eslint:
         specifier: 10.11.0
         version: 10.11.0(supports-color@7.2.0)
@@ -913,8 +913,8 @@ packages:
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
 
-  deepie-merge@3.0.3:
-    resolution: {integrity: sha512-zaCo+RFs38eQ0SwiKRet2rC6re7Ff+Pd6anjLNF57RnoYRtrXvbeTpS6e31VYUhaAJhTvN5QDdpGkhoPI/Mftw==}
+  deepie-merge@3.1.0:
+    resolution: {integrity: sha512-UvkR3M4gVbDEISFkV/j7U/wW1V0gj1dBxRk2P+yhhFK/KVrtC57nwEVFC4ID+oS3KRA4g+1ZGFbYPDhvnsJQfg==}
     engines: {node: '>=22'}
 
   defu@6.1.7:
@@ -2147,7 +2147,7 @@ snapshots:
 
   deep-is@0.1.4: {}
 
-  deepie-merge@3.0.3: {}
+  deepie-merge@3.1.0: {}
 
   defu@6.1.7: {}
 
