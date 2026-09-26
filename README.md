@@ -1,11 +1,20 @@
-# updates-config-silverwind [![](https://img.shields.io/npm/v/updates-config-silverwind.svg)](https://www.npmjs.org/package/updates-config-silverwind) [![](https://packagephobia.com/badge?p=updates-config-silverwind)](https://packagephobia.com/result?p=updates-config-silverwind) [![](https://img.shields.io/badge/licence-bsd-blue.svg)](https://raw.githubusercontent.com/silverwind/updates-config-silverwind/master/LICENSE)
+# updates-config-silverwind
+[![](https://img.shields.io/npm/v/updates-config-silverwind.svg)](https://www.npmjs.org/package/updates-config-silverwind) [![](https://packagephobia.com/badge?p=updates-config-silverwind)](https://packagephobia.com/result?p=updates-config-silverwind)
 
-Shared updates configuration
+> Shared updates configuration
 
-```js
+## Usage
+
+```sh
+pnpm add -D updates-config-silverwind
+```
+
+In `updates.config.ts`:
+
+```ts
 import {base} from "updates-config-silverwind";
 
 export default base({url: import.meta.url});
 ```
 
-© [silverwind](https://github.com/silverwind), distributed under BSD licence.
+© [silverwind](https://github.com/silverwind), distributed under BSD licence

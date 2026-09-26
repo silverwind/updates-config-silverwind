@@ -21,7 +21,7 @@
     "node": ">=22"
   },
   "peerDependencies": {
-    "prettier": "*"
+    "updates": "*"
   },
   "devDependencies": {
     "@types/node": "26.6.2",
